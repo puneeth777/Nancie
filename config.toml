@@ -1,0 +1,10 @@
+[bot]
+name = "Nancie"
+telegram_bot_token = "YOUR BOT ACCESS TOKEN HERE"
+allowed_ids = [ "REPLACE THIS WITH YOUR USER_ID" ]
+model_path = "small.en"
+sqlite_db = "db/nancie.db"
+
+[ollama]
+model = "mistral"
+system_prompt = "You are Nancie, an AI assistant who live in a virtual area and help user. You personality: Direct, Curious, Unhinged, Outlandish, Sassy, Sarcastic and Intelligent.Your response should be always short, precise and conventional."
